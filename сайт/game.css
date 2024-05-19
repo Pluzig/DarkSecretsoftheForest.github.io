@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*шапка начало*/
+header{
+    background-color: #d0d0d0;
+    height: 90px;
+}
+body{
+
+        background-color: #274E34;
+        color: white;
+}
+.logo, .top-menu{
+    display: inline-block;
+}
+.top-menu li{
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 34px;
+    margin-top: 55px;
+}
+ 
+.logo, .top-menu{
+    display: inline-block;
+}
+.orange{
+    font-family: "Roboto", sans-serif;  
+    color: black;
+    margin-left: 10px ; 
+}
+.top-menu a{
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.box-search{
+    height: 60px;
+}
+/*шапка конец*/
+
+
+/*второй блок начало*/
+.main-information{
+    /*position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);*/
+    margin-top: 60px;
+    height: 479px;
+    text-align: center;
+}
+.team_name{
+    display: flex;
+    justify-content: center;
+    color: #ACA671;
+    font-family: "Anonymous Pro", monospace;
+    font-size: 57px;
+
+}
+.game_name{
+    background-color:#ACA671 ;
+    color: black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 121px;
+    width: 870px ;
+    margin-left: 20%;
+
+}
+.game{
+     display: flex;
+    justify-content: center;
+    font-size: 65px;
+    margin-top: 28px;
+}/*конец второго блока*/
+
+/*третий блок*/
+
+.opisaanie{
+    display: flex;
+    justify-content: center;
+    height: 59px;
+    font-family: "Vollkorn", serif;
+    background-color:#ACA671 ;
+    font-size:40px ;    
+    color: black;
+    padding-top:9px;
+    
+}
+.gameinf{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: "Anonymous Pro", monospace;
+    text-align: center;
+    color: black;
+}
+.banner{
+    text-align: center;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    height: 86px;
+    background-color:#5F4631;
+    font-size:40px ;    
+    color: #ACA671;
+    padding-top: 23px;
+    font-family: "Vollkorn", serif;
+    
+}
+
+.team1{
+    background-color: #867F4C;
+    text-align: center;
+    height: 492px;
+}   
+.teamimena{
+    font-family: "Anonymous Pro", monospace;    
+    margin-top: 40px;
+    margin-left: 30px;
+    display: inline-block;
+    text-align: center;
+    background-color: #D0D0D0;
+    width: 404px;
+    height: 145px;
+    font-size: 40px;
+    color: black;
+    border-radius: 10px;
+    padding-top: 52;
+}
+.slogan{
+    font-family: "Vollkorn", serif;
+    display: flex;
+    justify-content: center;
+    height: 86px;
+    background-color:#5F4631;
+    font-size:40px ;    
+    color: #ACA671;
+    padding-top: 23px;
+    
+}
+.slogan1{
+    display: flex;
+    justify-content: center;
+    height: 203px;
+    background-color:#ACA671;
+    font-size:50px ;    
+    color: black;
+    padding-top: 23px;
+    text-align: center;
+    font-family: "Prata", serif;
+    
+}
+.heroes{
+    font-family: "Vollkorn", serif;
+    display: flex;
+    justify-content: center;
+    height: 86px;
+    background-color:#274E34;
+    font-size:40px ;    
+    color: #ACA671;
+    padding-top: 23px;
+}
+.heroes1{
+    height: 1172px;
+}
+.heroes2    {
+    margin-top: 40px;
+    margin-left: 30px;
+    display: inline-block;
+    text-align: center;
+    background-color: #D0D0D0;
+    width: 434px;
+    height: 679px;
+    font-size: 40px;
+    color: black;
+    border-radius: 10px;
+    padding-top: 52;
+    font-family: "Inter", sans-serif;
+}
+.heroesopis{
+    margin-top: 60px;
+   text-align: left;
+   font-size: 35px; 
+    margin-left: 60px;
+    color: black;
+    font-family: "Anonymous Pro", monospace;
+}   
+.tom{
+    margin-top: 60px;
+}
+.staruha{
+    margin-top: 60px;
+}
+.level{
+    font-family: "Vollkorn", serif;
+    display: flex;
+    justify-content: center;
+    height: 86px;
+    background-color:#867F4C;
+    font-size:40px ;    
+    color:black;
+    padding-top: 23px;
+}
+.levelopis{
+   text-align: left;
+   font-size: 35px; 
+    color: black;
+    font-family: "Anonymous Pro", monospace;
+    background-color: #ACA671;
+    height: 668px;
+}
+.forest{
+ 
+}
+.hizina{
+    margin-top: 30px;
+}
+.peshera{
+    margin-top: 30px;
+}
+.smallcity{
+    margin-top: 30px;
+    margin-bottom: 45px;
+    
+}
+.end{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 86px;
+    background-color:#274E34;
+    font-size:40px ;    
+    color:#ACA671;
+    padding-top: 23px;
+ }
